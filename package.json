@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run_spec": "npx cypress run --spec 'cypress/e2e/demo_Cypress/verifyAddSaleSuccessfully.spec.js' -- headles --record --key 6ebc547b-27b2-45a2-830a-f0de06f60acd"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1",
+    "dayjs": "^1.11.7",
+    "moment": "^2.29.4"
+  }
+}
