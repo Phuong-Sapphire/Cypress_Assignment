@@ -4,6 +4,7 @@ module.exports = defineConfig({
   projectId: "rdch76",
   viewportHeight: 1080,
   viewportWidth: 1920,
+  video: false,
   env:{
     email: 'admin@tecdiary.com',
     password: '12345678'
