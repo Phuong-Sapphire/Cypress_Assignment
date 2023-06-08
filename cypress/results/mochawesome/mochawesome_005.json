@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-06-08T16:10:06.827Z",
+    "end": "2023-06-08T16:10:20.916Z",
+    "duration": 14089,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "67ad74b6-70a9-4961-82a8-d6d970e4f251",
+      "title": "",
+      "fullFile": "cypress\\e2e\\demo_Cypress\\TC_06.spec.js",
+      "file": "cypress\\e2e\\demo_Cypress\\TC_06.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "987bda6c-c336-4893-bd4d-9d7c8400d15d",
+          "title": "assignment final",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify Print Barcode/Label page",
+              "fullTitle": "assignment final Verify Print Barcode/Label page",
+              "timedOut": null,
+              "duration": 14012,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "onLoginPage.login();\nnavigateTo.printBarcodeLabelPage();\nonPrintBarcodePage.verifyPrintBarcodePage();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div[id=\"s2id_style\"]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div[id=\"s2id_style\"]`, but never found it.\n    at Object.style (webpack:///./cypress/support/pageObjects/printBarcodesPage.js:16:24)\n    at PrintBarcodePage.verifyPrintBarcodePage (webpack:///./cypress/support/pageObjects/printBarcodesPage.js:52:22)\n    at Context.eval (webpack:///./cypress/e2e/demo_Cypress/TC_06.spec.js:13:27)",
+                "diff": null
+              },
+              "uuid": "ba86bd8c-001d-4c73-be30-dacc56d1feb5",
+              "parentUUID": "987bda6c-c336-4893-bd4d-9d7c8400d15d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "ba86bd8c-001d-4c73-be30-dacc56d1feb5"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 14012,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

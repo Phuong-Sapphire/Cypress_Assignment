@@ -5,12 +5,26 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "delete:reports": "rm mochawesome-report/mochawesome.html",
+    "prereport": "npm run delete:reports",
+    "mochawesome:merge": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\"> mochawesome.json && npx marge mochawesome.json",
+    "junit:merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/result.xml",
+    "cy:run": "npm run delete:mochawesome-report && npm run delete:mochawesome && npx cypress run && npm run mochawesome:merge",
+    "cy:chrome": "cypress run --browser chrome --spec cypress/e2e/*.cy.js",
+    "delete:mochawesome-report": "del-cli mochawesome-report || true",
+    "delete:mochawesome": "del-cli cypress/results || true",
     "cy:run_spec": "npx cypress run --spec 'cypress/e2e/demo_Cypress/verifyAddSaleSuccessfully.spec.js' -- headles --record --key 6ebc547b-27b2-45a2-830a-f0de06f60acd"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.13.0"
+    "cypress": "^12.14.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "junit-merge": "^2.0.0",
+    "mocha-junit-reporter": "^2.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "dependencies": {
     "cypress-xpath": "^2.0.1",

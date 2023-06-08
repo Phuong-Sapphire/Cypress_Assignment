@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-08T16:10:42.075Z",
+    "end": "2023-06-08T16:10:54.949Z",
+    "duration": 12874,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "637e1fb0-4f3e-4143-bc7a-0beab15ffc3c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\demo_Cypress\\TC_08.spec.js",
+      "file": "cypress\\e2e\\demo_Cypress\\TC_08.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1a3a92eb-7f28-4a13-8efc-89ff6ec6701e",
+          "title": "assignment final",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify add Sale successfully",
+              "fullTitle": "assignment final Verify add Sale successfully",
+              "timedOut": null,
+              "duration": 12793,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "onLoginPage.login();\nnavigateTo.addSalePage();\nonSalePage.addSale();",
+              "err": {},
+              "uuid": "58311966-ab29-4985-badc-a1b8cee1e9e3",
+              "parentUUID": "1a3a92eb-7f28-4a13-8efc-89ff6ec6701e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "58311966-ab29-4985-badc-a1b8cee1e9e3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12793,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
