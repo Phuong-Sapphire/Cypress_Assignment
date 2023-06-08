@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-06-08T16:09:52.174Z",
-    "end": "2023-06-08T16:10:04.843Z",
-    "duration": 12669,
+    "failures": 0,
+    "start": "2023-06-08T17:09:14.677Z",
+    "end": "2023-06-08T17:09:25.405Z",
+    "duration": 10728,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b7b8c531-173d-48c4-b3b0-256a3e3c343c",
+      "uuid": "83f60e75-c29e-429b-9593-b382edcff80a",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_05.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_05.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "139a0bfe-c8be-4487-90d4-03b8ad130061",
+          "uuid": "3750f874-33c6-4e19-8613-26ce898c807d",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -38,33 +38,29 @@
               "title": "Verify Edit product",
               "fullTitle": "assignment final Verify Edit product",
               "timedOut": null,
-              "duration": 12603,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 10701,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.listProductsPage();\nonProductsPage.EditProduct('Mouse');",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `input[class=\"input-xs\"]`, but never found it.",
-                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `input[class=\"input-xs\"]`, but never found it.\n    at Object.searchBtn (webpack:///./cypress/support/pageObjects/productsPage.js:28:28)\n    at ProductsPage.EditProduct (webpack:///./cypress/support/pageObjects/productsPage.js:77:22)\n    at Context.eval (webpack:///./cypress/e2e/demo_Cypress/TC_05.spec.js:13:23)",
-                "diff": null
-              },
-              "uuid": "805c57e2-ca70-4e40-b1a2-d00d9266129c",
-              "parentUUID": "139a0bfe-c8be-4487-90d4-03b8ad130061",
+              "err": {},
+              "uuid": "3d302417-1a63-43fe-9f2f-1c98fc3f97fb",
+              "parentUUID": "3750f874-33c6-4e19-8613-26ce898c807d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "805c57e2-ca70-4e40-b1a2-d00d9266129c"
+          "passes": [
+            "3d302417-1a63-43fe-9f2f-1c98fc3f97fb"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 12603,
+          "duration": 10701,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

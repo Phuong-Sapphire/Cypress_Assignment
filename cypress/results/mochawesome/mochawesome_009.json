@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2023-06-08T16:11:13.390Z",
-    "end": "2023-06-08T16:11:28.795Z",
-    "duration": 15405,
+    "start": "2023-06-08T17:10:16.872Z",
+    "end": "2023-06-08T17:10:30.953Z",
+    "duration": 14081,
     "testsRegistered": 1,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "4d5f5827-ca32-43ea-bb63-d0a9eaae9a50",
+      "uuid": "345f2f0c-f2ba-4e42-932e-37577514894b",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_10.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_10.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "23fd9053-c7f9-45ec-af7a-d04b3a89c0b8",
+          "uuid": "24b7fc08-a2fb-4be0-9ff4-d8c26b305084",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verify add Purchases successfully",
               "fullTitle": "assignment final Verify add Purchases successfully",
               "timedOut": null,
-              "duration": 15326,
+              "duration": 13976,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div[class=\"alert alert-success\"]`, but never found it.\n    at PurchasePage.addPurchase (webpack:///./cypress/support/pageObjects/purchasePage.js:45:32)\n    at Context.eval (webpack:///./cypress/e2e/demo_Cypress/TC_10.spec.js:13:23)",
                 "diff": null
               },
-              "uuid": "b5c677ac-545c-46cb-b009-ac54969085a9",
-              "parentUUID": "23fd9053-c7f9-45ec-af7a-d04b3a89c0b8",
+              "uuid": "2c6670f2-106e-448f-b982-68cb62735f57",
+              "parentUUID": "24b7fc08-a2fb-4be0-9ff4-d8c26b305084",
               "isHook": false,
               "skipped": false
             }
@@ -60,11 +60,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "b5c677ac-545c-46cb-b009-ac54969085a9"
+            "2c6670f2-106e-448f-b982-68cb62735f57"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 15326,
+          "duration": 13976,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-08T16:09:41.768Z",
-    "end": "2023-06-08T16:09:50.832Z",
-    "duration": 9064,
+    "start": "2023-06-08T17:09:05.023Z",
+    "end": "2023-06-08T17:09:13.311Z",
+    "duration": 8288,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "33ae10d1-95ba-4430-86f8-39f8d8ac9909",
+      "uuid": "eebaca23-6c7b-4bbf-bff1-2376aa038f20",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_04.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_04.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4dfc938c-c096-4818-a5ce-7cd479076197",
+          "uuid": "e81f3e99-f0ad-4121-aac8-f4225924e6ee",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verify view product detail",
               "fullTitle": "assignment final Verify view product detail",
               "timedOut": null,
-              "duration": 8932,
+              "duration": 8153,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.listProductsPage();\nnavigateTo.detailProductPage('Lemon');\nonProductsPage.verifyViewProductDetail();",
               "err": {},
-              "uuid": "0e2facf4-dfeb-4417-937b-7e4f10610404",
-              "parentUUID": "4dfc938c-c096-4818-a5ce-7cd479076197",
+              "uuid": "dd74a828-cdfb-4d62-a368-c22664f63e30",
+              "parentUUID": "e81f3e99-f0ad-4121-aac8-f4225924e6ee",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0e2facf4-dfeb-4417-937b-7e4f10610404"
+            "dd74a828-cdfb-4d62-a368-c22664f63e30"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8932,
+          "duration": 8153,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

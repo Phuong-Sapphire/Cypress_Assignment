@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-06-08T16:10:06.827Z",
-    "end": "2023-06-08T16:10:20.916Z",
-    "duration": 14089,
+    "failures": 0,
+    "start": "2023-06-08T17:09:26.762Z",
+    "end": "2023-06-08T17:09:38.266Z",
+    "duration": 11504,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "67ad74b6-70a9-4961-82a8-d6d970e4f251",
+      "uuid": "f60f0587-4469-49d1-8a58-f52fea54e389",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_06.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_06.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "987bda6c-c336-4893-bd4d-9d7c8400d15d",
+          "uuid": "79931dc6-1e64-4416-94a7-87f8affdced5",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -38,33 +38,29 @@
               "title": "Verify Print Barcode/Label page",
               "fullTitle": "assignment final Verify Print Barcode/Label page",
               "timedOut": null,
-              "duration": 14012,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 11401,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.printBarcodeLabelPage();\nonPrintBarcodePage.verifyPrintBarcodePage();",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div[id=\"s2id_style\"]`, but never found it.",
-                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div[id=\"s2id_style\"]`, but never found it.\n    at Object.style (webpack:///./cypress/support/pageObjects/printBarcodesPage.js:16:24)\n    at PrintBarcodePage.verifyPrintBarcodePage (webpack:///./cypress/support/pageObjects/printBarcodesPage.js:52:22)\n    at Context.eval (webpack:///./cypress/e2e/demo_Cypress/TC_06.spec.js:13:27)",
-                "diff": null
-              },
-              "uuid": "ba86bd8c-001d-4c73-be30-dacc56d1feb5",
-              "parentUUID": "987bda6c-c336-4893-bd4d-9d7c8400d15d",
+              "err": {},
+              "uuid": "18bfed01-aa46-4828-a2cb-b561c17f1ffd",
+              "parentUUID": "79931dc6-1e64-4416-94a7-87f8affdced5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "ba86bd8c-001d-4c73-be30-dacc56d1feb5"
+          "passes": [
+            "18bfed01-aa46-4828-a2cb-b561c17f1ffd"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14012,
+          "duration": 11401,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

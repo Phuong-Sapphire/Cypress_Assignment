@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-06-08T16:10:57.153Z",
-    "end": "2023-06-08T16:11:11.148Z",
-    "duration": 13995,
+    "failures": 0,
+    "start": "2023-06-08T17:10:06.499Z",
+    "end": "2023-06-08T17:10:14.917Z",
+    "duration": 8418,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f6e70cff-d60f-421e-b383-1c550a06e463",
+      "uuid": "2540a1ac-2bee-4a21-8867-4ee223aa2d2e",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_09.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_09.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1a665030-bf2b-4c04-8e47-3c03b2b85422",
+          "uuid": "d49f5020-c723-480b-bb7c-dcc15ba444e6",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -38,33 +38,29 @@
               "title": "Verify Purchases List",
               "fullTitle": "assignment final Verify Purchases List",
               "timedOut": null,
-              "duration": 13913,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 8334,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.listPurchasesPage();\nonPurchasePage.verifyPurchasesList();",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 4000ms: Too many elements found. Found '10', expected '9'.",
-                "estack": "AssertionError: Timed out retrying after 4000ms: Too many elements found. Found '10', expected '9'.\n    at PurchasePage.verifyPurchasesList (webpack:///./cypress/support/pageObjects/purchasePage.js:32:38)\n    at Context.eval (webpack:///./cypress/e2e/demo_Cypress/TC_09.spec.js:13:23)",
-                "diff": "- 10\n+ 9\n"
-              },
-              "uuid": "445ba5d0-26d6-45a6-98be-2c3305030182",
-              "parentUUID": "1a665030-bf2b-4c04-8e47-3c03b2b85422",
+              "err": {},
+              "uuid": "aa2ba992-6253-40ce-8e1e-f3d7ae44858d",
+              "parentUUID": "d49f5020-c723-480b-bb7c-dcc15ba444e6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "445ba5d0-26d6-45a6-98be-2c3305030182"
+          "passes": [
+            "aa2ba992-6253-40ce-8e1e-f3d7ae44858d"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 13913,
+          "duration": 8334,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

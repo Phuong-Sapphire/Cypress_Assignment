@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.514" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-06-08T17:09:39" tests="0" file="cypress\e2e\demo_Cypress\TC_07.spec.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="assignment final" timestamp="2023-06-08T17:09:39" tests="1" time="10.495" failures="0">
+    <testcase name="assignment final Verify create Print Barcode/Label successfully" time="10.455" classname="Verify create Print Barcode/Label successfully">
+    </testcase>
+  </testsuite>
+</testsuites>

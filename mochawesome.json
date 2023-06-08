@@ -2,23 +2,23 @@
   "stats": {
     "suites": 10,
     "tests": 10,
-    "passes": 6,
+    "passes": 9,
     "pending": 0,
-    "failures": 4,
+    "failures": 1,
     "testsRegistered": 10,
-    "passPercent": 60,
+    "passPercent": 90,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false,
-    "start": "2023-06-08T16:09:21.315Z",
-    "end": "2023-06-08T16:11:28.795Z",
-    "duration": 127480
+    "start": "2023-06-08T17:08:46.698Z",
+    "end": "2023-06-08T17:10:30.953Z",
+    "duration": 104255
   },
   "results": [
     {
-      "uuid": "9dd26ad6-298d-4f8b-8a20-d7779a63f90a",
+      "uuid": "fa2c4138-63d6-475e-a35d-868c83c78d49",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_02.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_02.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e27be17a-2133-47e1-b9ed-b5375e5fe163",
+          "uuid": "18f78de4-db6f-4676-9f22-444e6df3a612",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verify successfully logged in",
               "fullTitle": "assignment final Verify successfully logged in",
               "timedOut": null,
-              "duration": 4980,
+              "duration": 4911,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "onLoginPage.login();\nonLoginPage.VerifySuccessfullyLoggedIn();",
               "err": {},
-              "uuid": "42f6bb79-f056-4476-95cd-326a7458673c",
-              "parentUUID": "e27be17a-2133-47e1-b9ed-b5375e5fe163",
+              "uuid": "b651b00d-02b5-430d-b450-072180f6497e",
+              "parentUUID": "18f78de4-db6f-4676-9f22-444e6df3a612",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "42f6bb79-f056-4476-95cd-326a7458673c"
+            "b651b00d-02b5-430d-b450-072180f6497e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4980,
+          "duration": 4911,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -76,7 +76,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "66d105c1-ecd3-4790-82e4-55b43aa7e592",
+      "uuid": "fd2259d1-401b-4b9f-bf1f-80b0472801e5",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_03.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_03.spec.js",
@@ -85,7 +85,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "5c63e1e6-19c5-48df-956c-4fa0aa36bce0",
+          "uuid": "0f516610-e34b-46bc-8468-7b5fdb4c86c9",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -96,7 +96,7 @@
               "title": "Verify List Products",
               "fullTitle": "assignment final Verify List Products",
               "timedOut": null,
-              "duration": 7157,
+              "duration": 6182,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -105,20 +105,20 @@
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.listProductsPage();\nonProductsPage.verifyProductTable();",
               "err": {},
-              "uuid": "9fa77620-dd24-4367-9d30-f9a27a8b224b",
-              "parentUUID": "5c63e1e6-19c5-48df-956c-4fa0aa36bce0",
+              "uuid": "5d16468d-586a-4961-aa06-b577c44a9405",
+              "parentUUID": "0f516610-e34b-46bc-8468-7b5fdb4c86c9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9fa77620-dd24-4367-9d30-f9a27a8b224b"
+            "5d16468d-586a-4961-aa06-b577c44a9405"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7157,
+          "duration": 6182,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -134,7 +134,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "33ae10d1-95ba-4430-86f8-39f8d8ac9909",
+      "uuid": "eebaca23-6c7b-4bbf-bff1-2376aa038f20",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_04.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_04.spec.js",
@@ -143,7 +143,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4dfc938c-c096-4818-a5ce-7cd479076197",
+          "uuid": "e81f3e99-f0ad-4121-aac8-f4225924e6ee",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -154,7 +154,7 @@
               "title": "Verify view product detail",
               "fullTitle": "assignment final Verify view product detail",
               "timedOut": null,
-              "duration": 8932,
+              "duration": 8153,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -163,20 +163,20 @@
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.listProductsPage();\nnavigateTo.detailProductPage('Lemon');\nonProductsPage.verifyViewProductDetail();",
               "err": {},
-              "uuid": "0e2facf4-dfeb-4417-937b-7e4f10610404",
-              "parentUUID": "4dfc938c-c096-4818-a5ce-7cd479076197",
+              "uuid": "dd74a828-cdfb-4d62-a368-c22664f63e30",
+              "parentUUID": "e81f3e99-f0ad-4121-aac8-f4225924e6ee",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0e2facf4-dfeb-4417-937b-7e4f10610404"
+            "dd74a828-cdfb-4d62-a368-c22664f63e30"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8932,
+          "duration": 8153,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -192,7 +192,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "b7b8c531-173d-48c4-b3b0-256a3e3c343c",
+      "uuid": "83f60e75-c29e-429b-9593-b382edcff80a",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_05.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_05.spec.js",
@@ -201,7 +201,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "139a0bfe-c8be-4487-90d4-03b8ad130061",
+          "uuid": "3750f874-33c6-4e19-8613-26ce898c807d",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -212,33 +212,29 @@
               "title": "Verify Edit product",
               "fullTitle": "assignment final Verify Edit product",
               "timedOut": null,
-              "duration": 12603,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 10701,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.listProductsPage();\nonProductsPage.EditProduct('Mouse');",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `input[class=\"input-xs\"]`, but never found it.",
-                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `input[class=\"input-xs\"]`, but never found it.\n    at Object.searchBtn (webpack:///./cypress/support/pageObjects/productsPage.js:28:28)\n    at ProductsPage.EditProduct (webpack:///./cypress/support/pageObjects/productsPage.js:77:22)\n    at Context.eval (webpack:///./cypress/e2e/demo_Cypress/TC_05.spec.js:13:23)",
-                "diff": null
-              },
-              "uuid": "805c57e2-ca70-4e40-b1a2-d00d9266129c",
-              "parentUUID": "139a0bfe-c8be-4487-90d4-03b8ad130061",
+              "err": {},
+              "uuid": "3d302417-1a63-43fe-9f2f-1c98fc3f97fb",
+              "parentUUID": "3750f874-33c6-4e19-8613-26ce898c807d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "805c57e2-ca70-4e40-b1a2-d00d9266129c"
+          "passes": [
+            "3d302417-1a63-43fe-9f2f-1c98fc3f97fb"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 12603,
+          "duration": 10701,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -254,7 +250,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "67ad74b6-70a9-4961-82a8-d6d970e4f251",
+      "uuid": "f60f0587-4469-49d1-8a58-f52fea54e389",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_06.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_06.spec.js",
@@ -263,7 +259,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "987bda6c-c336-4893-bd4d-9d7c8400d15d",
+          "uuid": "79931dc6-1e64-4416-94a7-87f8affdced5",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -274,33 +270,29 @@
               "title": "Verify Print Barcode/Label page",
               "fullTitle": "assignment final Verify Print Barcode/Label page",
               "timedOut": null,
-              "duration": 14012,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 11401,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.printBarcodeLabelPage();\nonPrintBarcodePage.verifyPrintBarcodePage();",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div[id=\"s2id_style\"]`, but never found it.",
-                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div[id=\"s2id_style\"]`, but never found it.\n    at Object.style (webpack:///./cypress/support/pageObjects/printBarcodesPage.js:16:24)\n    at PrintBarcodePage.verifyPrintBarcodePage (webpack:///./cypress/support/pageObjects/printBarcodesPage.js:52:22)\n    at Context.eval (webpack:///./cypress/e2e/demo_Cypress/TC_06.spec.js:13:27)",
-                "diff": null
-              },
-              "uuid": "ba86bd8c-001d-4c73-be30-dacc56d1feb5",
-              "parentUUID": "987bda6c-c336-4893-bd4d-9d7c8400d15d",
+              "err": {},
+              "uuid": "18bfed01-aa46-4828-a2cb-b561c17f1ffd",
+              "parentUUID": "79931dc6-1e64-4416-94a7-87f8affdced5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "ba86bd8c-001d-4c73-be30-dacc56d1feb5"
+          "passes": [
+            "18bfed01-aa46-4828-a2cb-b561c17f1ffd"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14012,
+          "duration": 11401,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -316,7 +308,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "bf5a985a-817a-4abe-b08b-041ce6deeec8",
+      "uuid": "ce99f6e4-0c84-4728-8dbe-9af1369a6fd6",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_07.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_07.spec.js",
@@ -325,7 +317,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7e4f1a84-f739-4839-ab43-2584bd624bda",
+          "uuid": "e62fed43-14d9-47c7-871b-cc4576026f3d",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -336,7 +328,7 @@
               "title": "Verify create Print Barcode/Label successfully",
               "fullTitle": "assignment final Verify create Print Barcode/Label successfully",
               "timedOut": null,
-              "duration": 17875,
+              "duration": 10455,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -345,20 +337,20 @@
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.printBarcodeLabelPage();\nonPrintBarcodePage.addBarcode('Kiwi');\nonPrintBarcodePage.verifyUpdateBarcode();",
               "err": {},
-              "uuid": "52e2f137-5b01-4e9b-9661-062f8ab3b5d8",
-              "parentUUID": "7e4f1a84-f739-4839-ab43-2584bd624bda",
+              "uuid": "31707f74-6c8a-4570-8aab-707b9bf86cb6",
+              "parentUUID": "e62fed43-14d9-47c7-871b-cc4576026f3d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "52e2f137-5b01-4e9b-9661-062f8ab3b5d8"
+            "31707f74-6c8a-4570-8aab-707b9bf86cb6"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 17875,
+          "duration": 10455,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -374,7 +366,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "637e1fb0-4f3e-4143-bc7a-0beab15ffc3c",
+      "uuid": "f912dcb4-ff51-4b61-bd55-07c73fddf37e",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_08.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_08.spec.js",
@@ -383,7 +375,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1a3a92eb-7f28-4a13-8efc-89ff6ec6701e",
+          "uuid": "e42f90b5-0473-4452-984e-b7bc25b9828e",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -394,7 +386,7 @@
               "title": "Verify add Sale successfully",
               "fullTitle": "assignment final Verify add Sale successfully",
               "timedOut": null,
-              "duration": 12793,
+              "duration": 12825,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -403,20 +395,20 @@
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.addSalePage();\nonSalePage.addSale();",
               "err": {},
-              "uuid": "58311966-ab29-4985-badc-a1b8cee1e9e3",
-              "parentUUID": "1a3a92eb-7f28-4a13-8efc-89ff6ec6701e",
+              "uuid": "c9400759-9cbd-4db4-881d-bfb174c3c6a9",
+              "parentUUID": "e42f90b5-0473-4452-984e-b7bc25b9828e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "58311966-ab29-4985-badc-a1b8cee1e9e3"
+            "c9400759-9cbd-4db4-881d-bfb174c3c6a9"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 12793,
+          "duration": 12825,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -432,7 +424,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "f6e70cff-d60f-421e-b383-1c550a06e463",
+      "uuid": "2540a1ac-2bee-4a21-8867-4ee223aa2d2e",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_09.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_09.spec.js",
@@ -441,7 +433,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1a665030-bf2b-4c04-8e47-3c03b2b85422",
+          "uuid": "d49f5020-c723-480b-bb7c-dcc15ba444e6",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -452,33 +444,29 @@
               "title": "Verify Purchases List",
               "fullTitle": "assignment final Verify Purchases List",
               "timedOut": null,
-              "duration": 13913,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 8334,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.listPurchasesPage();\nonPurchasePage.verifyPurchasesList();",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 4000ms: Too many elements found. Found '10', expected '9'.",
-                "estack": "AssertionError: Timed out retrying after 4000ms: Too many elements found. Found '10', expected '9'.\n    at PurchasePage.verifyPurchasesList (webpack:///./cypress/support/pageObjects/purchasePage.js:32:38)\n    at Context.eval (webpack:///./cypress/e2e/demo_Cypress/TC_09.spec.js:13:23)",
-                "diff": "- 10\n+ 9\n"
-              },
-              "uuid": "445ba5d0-26d6-45a6-98be-2c3305030182",
-              "parentUUID": "1a665030-bf2b-4c04-8e47-3c03b2b85422",
+              "err": {},
+              "uuid": "aa2ba992-6253-40ce-8e1e-f3d7ae44858d",
+              "parentUUID": "d49f5020-c723-480b-bb7c-dcc15ba444e6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "445ba5d0-26d6-45a6-98be-2c3305030182"
+          "passes": [
+            "aa2ba992-6253-40ce-8e1e-f3d7ae44858d"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 13913,
+          "duration": 8334,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -494,7 +482,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "4d5f5827-ca32-43ea-bb63-d0a9eaae9a50",
+      "uuid": "345f2f0c-f2ba-4e42-932e-37577514894b",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_10.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_10.spec.js",
@@ -503,7 +491,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "23fd9053-c7f9-45ec-af7a-d04b3a89c0b8",
+          "uuid": "24b7fc08-a2fb-4be0-9ff4-d8c26b305084",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -514,7 +502,7 @@
               "title": "Verify add Purchases successfully",
               "fullTitle": "assignment final Verify add Purchases successfully",
               "timedOut": null,
-              "duration": 15326,
+              "duration": 13976,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -527,8 +515,8 @@
                 "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div[class=\"alert alert-success\"]`, but never found it.\n    at PurchasePage.addPurchase (webpack:///./cypress/support/pageObjects/purchasePage.js:45:32)\n    at Context.eval (webpack:///./cypress/e2e/demo_Cypress/TC_10.spec.js:13:23)",
                 "diff": null
               },
-              "uuid": "b5c677ac-545c-46cb-b009-ac54969085a9",
-              "parentUUID": "23fd9053-c7f9-45ec-af7a-d04b3a89c0b8",
+              "uuid": "2c6670f2-106e-448f-b982-68cb62735f57",
+              "parentUUID": "24b7fc08-a2fb-4be0-9ff4-d8c26b305084",
               "isHook": false,
               "skipped": false
             }
@@ -536,11 +524,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "b5c677ac-545c-46cb-b009-ac54969085a9"
+            "2c6670f2-106e-448f-b982-68cb62735f57"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 15326,
+          "duration": 13976,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -556,7 +544,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "6bba21e9-c488-40c1-be23-26c11181579c",
+      "uuid": "fb735aeb-07a2-4043-ad9c-0da59ecb6711",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_01.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_01.spec.js",
@@ -565,7 +553,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3415f582-5092-4a22-bb93-08a6c7c986aa",
+          "uuid": "3fe5575e-b3bd-4515-a34f-32c5f3b88054",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -576,7 +564,7 @@
               "title": "Verify Login page",
               "fullTitle": "assignment final Verify Login page",
               "timedOut": null,
-              "duration": 3594,
+              "duration": 2695,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -585,20 +573,20 @@
               "context": null,
               "code": "onLoginPage.verifyLoginPage();",
               "err": {},
-              "uuid": "e31f613b-89ab-4ef5-91d2-0fbaa335658d",
-              "parentUUID": "3415f582-5092-4a22-bb93-08a6c7c986aa",
+              "uuid": "c6dfc28c-886a-4c71-b16e-615e73af5c39",
+              "parentUUID": "3fe5575e-b3bd-4515-a34f-32c5f3b88054",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "e31f613b-89ab-4ef5-91d2-0fbaa335658d"
+            "c6dfc28c-886a-4c71-b16e-615e73af5c39"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3594,
+          "duration": 2695,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
