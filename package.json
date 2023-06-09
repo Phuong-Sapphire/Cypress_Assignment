@@ -9,7 +9,7 @@
     "prereport": "npm run delete:reports",
     "mochawesome:merge": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\"> mochawesome.json && npx marge mochawesome.json",
     "junit:merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/result.xml",
-    "cy:run": "npm run delete:mochawesome-report && npm run delete:mochawesome && npx cypress run",
+    "cy:run": "npm run delete:mochawesome-report && npm run delete:mochawesome && npx cypress run & npm run mochawesome:merge",
     "cy:chrome": "cypress run --browser chrome --spec cypress/e2e/*.cy.js",
     "delete:mochawesome-report": "del-cli mochawesome-report || true",
     "delete:mochawesome": "del-cli cypress/results || true",

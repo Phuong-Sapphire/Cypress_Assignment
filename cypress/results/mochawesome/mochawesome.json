@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-08T17:08:46.698Z",
-    "end": "2023-06-08T17:08:49.464Z",
-    "duration": 2766,
+    "start": "2023-06-09T02:22:40.660Z",
+    "end": "2023-06-09T02:22:43.775Z",
+    "duration": 3115,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "fb735aeb-07a2-4043-ad9c-0da59ecb6711",
+      "uuid": "225a08b3-f5b7-4f97-871f-e808daa55dff",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_01.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_01.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3fe5575e-b3bd-4515-a34f-32c5f3b88054",
+          "uuid": "64fe0346-12f8-4460-a257-314d659c6d09",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verify Login page",
               "fullTitle": "assignment final Verify Login page",
               "timedOut": null,
-              "duration": 2695,
+              "duration": 3006,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "onLoginPage.verifyLoginPage();",
               "err": {},
-              "uuid": "c6dfc28c-886a-4c71-b16e-615e73af5c39",
-              "parentUUID": "3fe5575e-b3bd-4515-a34f-32c5f3b88054",
+              "uuid": "dd4ea94b-e0f2-4196-b54d-89ee1f075f70",
+              "parentUUID": "64fe0346-12f8-4460-a257-314d659c6d09",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c6dfc28c-886a-4c71-b16e-615e73af5c39"
+            "dd4ea94b-e0f2-4196-b54d-89ee1f075f70"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2695,
+          "duration": 3006,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

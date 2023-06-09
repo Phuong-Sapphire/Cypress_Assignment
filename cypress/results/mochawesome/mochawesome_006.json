@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-08T17:09:39.619Z",
-    "end": "2023-06-08T17:09:50.133Z",
-    "duration": 10514,
+    "start": "2023-06-09T02:23:35.650Z",
+    "end": "2023-06-09T02:23:47.121Z",
+    "duration": 11471,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ce99f6e4-0c84-4728-8dbe-9af1369a6fd6",
+      "uuid": "3e4d2c8d-a185-40a6-9fb5-bc0026244f3e",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_07.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_07.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e62fed43-14d9-47c7-871b-cc4576026f3d",
+          "uuid": "06236876-6190-4e7d-81e9-26cd51aa8071",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verify create Print Barcode/Label successfully",
               "fullTitle": "assignment final Verify create Print Barcode/Label successfully",
               "timedOut": null,
-              "duration": 10455,
+              "duration": 11265,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.printBarcodeLabelPage();\nonPrintBarcodePage.addBarcode('Kiwi');\nonPrintBarcodePage.verifyUpdateBarcode();",
               "err": {},
-              "uuid": "31707f74-6c8a-4570-8aab-707b9bf86cb6",
-              "parentUUID": "e62fed43-14d9-47c7-871b-cc4576026f3d",
+              "uuid": "645a11ab-d72f-4947-ad4f-11d33809aa1a",
+              "parentUUID": "06236876-6190-4e7d-81e9-26cd51aa8071",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "31707f74-6c8a-4570-8aab-707b9bf86cb6"
+            "645a11ab-d72f-4947-ad4f-11d33809aa1a"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 10455,
+          "duration": 11265,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

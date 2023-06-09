@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-08T17:09:26.762Z",
-    "end": "2023-06-08T17:09:38.266Z",
-    "duration": 11504,
+    "start": "2023-06-09T02:23:26.953Z",
+    "end": "2023-06-09T02:23:33.626Z",
+    "duration": 6673,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f60f0587-4469-49d1-8a58-f52fea54e389",
+      "uuid": "322c0bed-d763-42c4-b1da-0f4f5213d35a",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_06.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_06.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "79931dc6-1e64-4416-94a7-87f8affdced5",
+          "uuid": "6e7f3b47-d27b-4e47-a181-9c91dc15df49",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "Verify Print Barcode/Label page",
               "fullTitle": "assignment final Verify Print Barcode/Label page",
               "timedOut": null,
-              "duration": 11401,
+              "duration": 6483,
               "state": "passed",
-              "speed": "slow",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.printBarcodeLabelPage();\nonPrintBarcodePage.verifyPrintBarcodePage();",
               "err": {},
-              "uuid": "18bfed01-aa46-4828-a2cb-b561c17f1ffd",
-              "parentUUID": "79931dc6-1e64-4416-94a7-87f8affdced5",
+              "uuid": "70795095-0d44-4b8e-8b70-67b5b7c9cae0",
+              "parentUUID": "6e7f3b47-d27b-4e47-a181-9c91dc15df49",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "18bfed01-aa46-4828-a2cb-b561c17f1ffd"
+            "70795095-0d44-4b8e-8b70-67b5b7c9cae0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 11401,
+          "duration": 6483,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

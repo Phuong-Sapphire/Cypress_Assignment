@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-08T17:08:57.285Z",
-    "end": "2023-06-08T17:09:03.582Z",
-    "duration": 6297,
+    "start": "2023-06-09T02:22:52.051Z",
+    "end": "2023-06-09T02:22:59.537Z",
+    "duration": 7486,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "fd2259d1-401b-4b9f-bf1f-80b0472801e5",
+      "uuid": "7aed84b9-3191-4207-826a-9b461ece0388",
       "title": "",
       "fullFile": "cypress\\e2e\\demo_Cypress\\TC_03.spec.js",
       "file": "cypress\\e2e\\demo_Cypress\\TC_03.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0f516610-e34b-46bc-8468-7b5fdb4c86c9",
+          "uuid": "581d6843-1ba9-4aa5-80b2-dbb5fcc3ef5d",
           "title": "assignment final",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verify List Products",
               "fullTitle": "assignment final Verify List Products",
               "timedOut": null,
-              "duration": 6182,
+              "duration": 7392,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "onLoginPage.login();\nnavigateTo.listProductsPage();\nonProductsPage.verifyProductTable();",
               "err": {},
-              "uuid": "5d16468d-586a-4961-aa06-b577c44a9405",
-              "parentUUID": "0f516610-e34b-46bc-8468-7b5fdb4c86c9",
+              "uuid": "0039bb74-2fea-40b9-96ea-21fbb063a7e4",
+              "parentUUID": "581d6843-1ba9-4aa5-80b2-dbb5fcc3ef5d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5d16468d-586a-4961-aa06-b577c44a9405"
+            "0039bb74-2fea-40b9-96ea-21fbb063a7e4"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6182,
+          "duration": 7392,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
